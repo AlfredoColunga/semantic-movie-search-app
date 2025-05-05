@@ -61,7 +61,7 @@ genres = ['Action', 'Drama', 'Adventure', 'Sci-Fi', 'Animation', 'Crime',
           'Music', 'Musical', 'Film-Noir', 'Game-Show', 'Adult',
           'Reality-TV']
 
-st.title(":movie_camera: Semantic Movie Search Engine")
+st.title(":clapper: Semantic Movie Search Engine")
 
 st.subheader("")
 
