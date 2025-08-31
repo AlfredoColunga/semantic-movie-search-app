@@ -1,5 +1,4 @@
 # Semantic Movie Search Engine
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://semantic-movie-search-engine-ibtmwthso4sivuvappvii6r.streamlit.app/)
 
 A Streamlit semantic movie search application that uses:
 - :brain: Text embeddings created using all-MiniLM-L6-v2 model
