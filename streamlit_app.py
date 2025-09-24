@@ -1,17 +1,15 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 import chromadb
+from chromadb.config import Settings
 import streamlit as st
 
 # Load model
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
 # Connect to ChromaDB
-chroma_client = chromadb.PersistentClient(path="data_embeddings")
+client_settings = Settings(chroma_server_ssl_verify=False, anonymized_telemetry=False)
+chroma_client = chromadb.PersistentClient(path="data_embeddings", settings=client_settings)
 db = chroma_client.get_collection(name="movies_db")
 
 def search(query, genre, rating, max_results):
@@ -89,4 +87,4 @@ if search_btn:
             max_results=results_input
         )
 
-        st.dataframe(responses, use_container_width=True, hide_index=True)
+        st.dataframe(responses, width='stretch', hide_index=True)
