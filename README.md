@@ -12,4 +12,4 @@ Dataset source (Kaggle): [25k IMDb Movie Dataset - Kaggle](https://www.kaggle.co
 - Streamlit: UI framework
 - ChromaDB: Vector database
 - SentenceTransformers: all-MiniLM-L6-v2 model for generating embeddings
-- Pandas: Data manipulation and visualization
+- Pandas: Data manipulation
