@@ -2,4 +2,3 @@ pandas
 sentence-transformers
 chromadb
 streamlit
-pysqlite3-binary
