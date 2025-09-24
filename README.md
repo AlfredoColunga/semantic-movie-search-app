@@ -2,7 +2,8 @@
 
 A Streamlit app to search for movies using semantic search based on text embeddings.
 
-Demo: [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://semantic-movie-search-app-egygdbgcjuarmasedrrwpx.streamlit.app/)
+## :balloon: Demo
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://semantic-movie-search-app-egygdbgcjuarmasedrrwpx.streamlit.app/)
 
 ## :bar_chart: Dataset
 Dataset source (Kaggle): [25k IMDb Movie Dataset - Kaggle](https://www.kaggle.com/datasets/utsh0dey/25k-movie-dataset)
